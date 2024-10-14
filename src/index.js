@@ -7,11 +7,13 @@ import reportWebVitals from './reportWebVitals';
 import SaludoPadre from './components/SaludoPadre';
 import PadreMatematicas from './components/PadreMatematicas';
 import Contador from './components/Contador';
+import Car from './components/Car';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Contador/>
+    <Car marca="Audi" modelo="Q3" aceleracion="25" velocidadmaxima="240"/>
+    <Car marca="Pontiac" modelo="Firebird" aceleracion="45" velocidadmaxima="340"/>
   </React.StrictMode>
 );
 

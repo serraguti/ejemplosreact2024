@@ -19,6 +19,11 @@ function Contador() {
         <button onClick={ () => sumarContador() }>
             Sumar contador
         </button>
+        <button onClick={ () => {
+            setNumero(numero - 1);
+        }}>
+            Restar contador
+        </button>
     </div>)
 }
 
